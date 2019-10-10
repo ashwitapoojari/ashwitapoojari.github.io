@@ -12,7 +12,7 @@ Primary use:
 .s1-txt1 {
   font-family: Montserrat-SemiBold;
   font-size: 14px;
-  color: #000;
+  color: #3D4351;
   line-height: 1.2;
   text-transform: uppercase;
 }
@@ -24,7 +24,7 @@ Primary use:
 .m1-txt1 {
   font-family: Montserrat-Regular;
   font-size: 18px;
-  color: #000;
+  color: #3D4351;
   line-height: 1;
 }
 
@@ -35,14 +35,14 @@ Primary use:
 .l1-txt1 {
   font-family: Montserrat-Regular;
   font-size: 30px;
-  color: #000;
+  color: #3D4351;
   line-height: 1;
 }
 
 .l1-txt2 {
   font-family: Playlist Script;
   font-size: 180px;
-  color: #fff;
+  color: #3D4351;
   line-height: 1.1;
 }
 
