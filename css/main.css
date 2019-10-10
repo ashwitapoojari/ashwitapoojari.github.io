@@ -1,0 +1,48 @@
+/*------------------------------------------------------------------
+Project:  ComingSoon
+Version:  
+Last change:  
+Assigned to:  Bach Le
+Primary use:  
+-------------------------------------------------------------------*/
+
+
+/*//////////////////////////////////////////////////////////////////
+[ S-Text 0 - 15 ]*/
+.s1-txt1 {
+  font-family: Montserrat-SemiBold;
+  font-size: 14px;
+  color: #000;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ M-Text 16 - 25 ]*/
+.m1-txt1 {
+  font-family: Montserrat-Regular;
+  font-size: 18px;
+  color: #000;
+  line-height: 1;
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ L-Text >= 26 ]*/
+.l1-txt1 {
+  font-family: Montserrat-Regular;
+  font-size: 30px;
+  color: #000;
+  line-height: 1;
+}
+
+.l1-txt2 {
+  font-family: Playlist Script;
+  font-size: 180px;
+  color: #fff;
+  line-height: 1.1;
+}
+

@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body id="top">
 <!--[if lt IE 8]>
@@ -87,14 +88,42 @@
         <div class="row">
             <div class="col-md-12 text-center">
                     <h3>
-                    SO THE ADVENTURE BEGINS!!<br/>
-                    💞 <br/>
-                    We are finally getting HITCHED on 1st December, 2019!!!
+                    SO THE ADVENTURE BEGINS💞</h3>
+                   
+                <h4>
+                <div class="flex-col-c-sb size1 overlay1 p-l-75 p-r-75 p-t-20 p-b-40 p-lr-15-sm">
+                    <div class="w-full flex-w flex-sb-m">
+                        <div class="flex-w cd100 p-t-15 p-b-15 p-r-36">
+                            <div class="flex-w flex-b m-r-22 m-t-8 m-b-8">
+                                <span class="l1-txt1 wsize1 days">35</span>
+                                <span class="m1-txt1 p-b-2">Days</span>
+                            
+                                <span class="l1-txt1 wsize1 hours">17</span>
+                                <span class="m1-txt1 p-b-2">Hr</span>
+                            
+                                <span class="l1-txt1 wsize1 minutes">50</span>
+                                <span class="m1-txt1 p-b-2">Min</span>
+                            
+                                <span class="l1-txt1 wsize1 seconds">39</span>
+                                <span class="m1-txt1 p-b-2">Sec</span>
+                            </div>
+                        </div>
+                    </div>
+                </h4>
+                <h3>
+                   
+                    We are finally getting HITCHED on 1st December, 2019!!!<br/>
+                   
                     </h3>
+                   
                 <div class="share-bar"></div>
-            </div>
-        </div>
-    </div>
+
+
+            
+                    <!--  -->
+                    
+                    
+                </div>
 </section>
 
 <section id="intro">
@@ -440,5 +469,39 @@ The look they exchanged was so beautiful, so naive, so innocent!!! That one look
     ga('create', 'UA-46465113-4', 'auto');
     ga('send', 'pageview');
 </script>
+
+	<script src="vendor/bootstrap/js/popper.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/moment.min.js"></script>
+	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
+	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<script>
+		$('.cd100').countdown100({
+			/*Set Endtime here*/
+			/*Endtime must be > current time*/
+            endtimeYear: 2019,
+			endtimeMonth: 12,
+			endtimeDate: 1,
+			endtimeHours: 12,
+			endtimeMinutes: 01,
+			endtimeSeconds: 0,
+			timeZone: "Asia/Kolkata" 
+			// ex:  timeZone: "America/New_York"
+			//go to " http://momentjs.com/timezone/ " to get timezone
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
 </body>
 </html>
